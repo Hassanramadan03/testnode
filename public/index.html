@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>NodeTest</title>
+  <!-- Meta Tags-->
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/stylesheet.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+<link rel='stylesheet prefetch' href='/css/stylesheet.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <base href='/' />
+</head>
+
+<body ng-app="app">
+  <div id="page-wrapper">
+    <header id="header" class="navbar-static-top">
+      <headerTemp></headerTemp>
+    </header>
+    <div class="container">
+         <ng-view>loading...</ng-view>
+    </div>
+   
+   
+  <!-- Javascript-->
+
+
+
+
+  <!-- calling angular packages  -->
+  
+
+
+ 
+  <script src="/angular/angular.min.js"></script>
+  <script src="/angular/satellizer.js"></script>
+  <script src="/angular/angular-route.min.js"></script>
+  
+  <script src="/app/app.js"></script>
+  <script src="/app/directives/headerDirective.js"></script>
+  <script src="/app/controllers/homeCtrl.js"></script>
+  
+  <script src="/app/controllers/feedCtrl.js"></script>
+  <script src="/app/controllers/info.js"></script>
+  <script src="/app/services/feedService.js"></script>
+   
+  <script src="/app/controllers/signupCtrl.js"></script>
+  <script src="/app/controllers/loginCtrl.js"></script>
+ 
+
+
+</body>
+
+</html>
